@@ -7,13 +7,13 @@ function NavBar() {
    return (
       <div id="navbar">
          <div className="nav-icons">
-            <WhatshotIcon />   
+            <WhatshotIcon fontSize="large"/>   
          </div>
          <div className="nav-icons">
-            <ChatBubbleOutlineIcon />
+            <ChatBubbleOutlineIcon fontSize="large"/>
          </div>
          <div className="nav-icons">
-            <PersonOutlineIcon />
+            <PersonOutlineIcon fontSize="large"/>
          </div>
       </div>
    )
