@@ -1,14 +1,15 @@
 import React from 'react';
 import NavBar from './Components/NavBar'; 
+import TinderCard from './Components/TinderCard'; 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      {/* Tinder cards - Swipe Left/Right */}
+      <TinderCard />
       {/* Buttons below Tinder cards */}
-      <h1>Tinder Clone</h1>
+
       {/* Chat screen */}
       {/* Individual chats */}
     </div>

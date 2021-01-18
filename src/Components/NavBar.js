@@ -2,18 +2,25 @@ import React from 'react';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import IconButton from '@material-ui/core/IconButton'; 
 
 function NavBar() {
    return (
       <div id="navbar">
          <div className="nav-icons">
-            <WhatshotIcon fontSize="large"/>   
+            <IconButton>
+               <WhatshotIcon fontSize="large"/>   
+            </IconButton>
          </div>
          <div className="nav-icons">
-            <ChatBubbleOutlineIcon fontSize="large"/>
+            <IconButton>
+               <ChatBubbleOutlineIcon fontSize="large" />
+            </IconButton>
          </div>
          <div className="nav-icons">
-            <PersonOutlineIcon fontSize="large"/>
+            <IconButton>
+               <PersonOutlineIcon fontSize="large"/>
+            </IconButton>
          </div>
       </div>
    )
