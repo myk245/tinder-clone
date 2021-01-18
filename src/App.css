@@ -12,6 +12,18 @@
    object-fit: contain;
 }
 
+#tinder-card {
+   text-align: center;
+   padding: 30px;
+   margin: 25px;
+   border: 1px solid #f4f4f4; 
+   border-radius: 8px;
+}
+
+.profile-image {
+   margin: 10px;
+}
+
 /* Utility Classes */
 /* .container {
    margin: 0 auto; 
