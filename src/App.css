@@ -52,3 +52,21 @@
    margin: 5px;
    object-fit: contain;
 }
+
+@media screen and (max-width: 800px) {
+   #tinder-card {
+      width: 80vw;
+      margin: 0 auto; 
+      object-fit: contain;
+      overflow: hidden;
+   }
+}
+
+@media screen and (max-width: 300px) {
+   #tinder-card {
+      width: 90vw;
+      margin: 0 auto; 
+      object-fit: contain;
+      overflow: hidden;
+   }
+}
