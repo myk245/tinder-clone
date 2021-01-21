@@ -20,6 +20,7 @@
    width: 50vw;
    margin: 0 auto; 
    object-fit: contain;
+   overflow: hidden;
 }
 
 #tinder-card p {
@@ -27,6 +28,7 @@
    font-weight: 300;
    font-size: 12pt;
    color: rgb(22, 22, 22);
+   object-fit: contain;
 }
 
 .profile-image {
