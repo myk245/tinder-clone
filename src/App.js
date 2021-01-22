@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar'; 
 import TinderCard from './Components/TinderCard'; 
 import ButtonsBar from './Components/ButtonsBar';
+import Chat from './Components/Chat'; 
 import './App.css';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <NavBar/>
       <Router>
         <Switch>
-          <Route exact path='/' component={TinderCard}/>
+          <Route exact path='/' component={TinderCard} />
+          <Route path='/chat' component={Chat} />
         </Switch>
       </Router>
       <ButtonsBar />
