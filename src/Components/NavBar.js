@@ -8,12 +8,12 @@ function NavBar() {
    return (
       <div id="navbar">
          <div className="nav-icons">
-            <IconButton>
+            <IconButton href="/">
                <WhatshotIcon fontSize="large"/>   
             </IconButton>
          </div>
          <div className="nav-icons">
-            <IconButton>
+            <IconButton href="/chat">
                <ChatBubbleOutlineIcon fontSize="large" />
             </IconButton>
          </div>
