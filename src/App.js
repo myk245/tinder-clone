@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar';
 import TinderCard from './Components/TinderCard'; 
 import ButtonsBar from './Components/ButtonsBar';
 import Chat from './Components/Chat'; 
+import Profile from './Components/Profile'; 
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={TinderCard} />
           <Route path='/chat' component={Chat} />
+          <Route path='/profile' component={Profile}/>
         </Switch>
       </Router>
       <ButtonsBar />

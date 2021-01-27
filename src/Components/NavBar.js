@@ -18,7 +18,7 @@ function NavBar() {
             </IconButton>
          </div>
          <div className="nav-icons">
-            <IconButton>
+            <IconButton href="/profile">
                <PersonOutlineIcon fontSize="large"/>
             </IconButton>
          </div>
